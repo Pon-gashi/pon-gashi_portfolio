@@ -1,0 +1,361 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>WEB PORTFOLIO | Web制作ポートフォリオ</title>
+    <meta
+      name="description"
+      content="HTML・CSS・JavaScriptによるコーディング、レスポンシブ対応、既存サイトの修正をご紹介します。">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+  </head>
+  <body class="studio">
+    <a class="skip" href="#main">本文へ移動</a>
+    <div class="sample-bar">
+      <span>ポートフォリオ準備版 / 掲載中の制作例は架空のサンプルです</span>
+    </div>
+    <header>
+      <a class="logo" href="#">WEB PORTFOLIO</a>
+      <button class="menu" aria-label="メニューを開く" aria-expanded="false" aria-controls="nav">
+        MENU ＋
+      </button>
+      <nav id="nav">
+        <a href="#works">制作例</a>
+        <a href="#about">私について</a>
+        <a href="#services">できること</a>
+        <a class="nav-contact" href="#contact">制作のご相談 ↗</a>
+      </nav>
+    </header>
+    <main id="main">
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">HTML / CSS / JAVASCRIPT</p>
+          <h1>
+            丁寧な実装で、
+            <br>
+            事業の
+            <span>次の一歩</span>
+            を。
+          </h1>
+          <p class="intro">
+            ご用意いただいたデザインを、Webサイトに。
+            <br>
+            HTML・CSS・JavaScriptで、
+            <br>
+            一つずつ丁寧に実装します。
+          </p>
+          <a class="button" href="#works">
+            制作例を見る
+            <span>↓</span>
+          </a>
+        </div>
+        <div class="hero-aside">
+          <div class="feature-label">CODE THAT CONNECTS.</div>
+          <div class="mock mock-0" aria-hidden="true">
+            <div class="mock-nav">
+              <b>MINATO CONSULTING</b>
+              <span>ABOUT　 SERVICE　 CONTACT</span>
+            </div>
+            <div class="mock-body">
+              <small>A BETTER WAY FORWARD</small>
+              <strong>
+                Beyond
+                <br>
+                the ordinary.
+              </strong>
+              <div class="mock-line"></div>
+              <span class="mock-caption">未来につながる選択を、ともに。</span>
+            </div>
+            <div class="mock-bottom">
+              EXPLORE OUR STORY
+              <span>↗</span>
+            </div>
+          </div>
+          <p class="aside-note">つくる。確かめる。届ける。</p>
+        </div>
+        <div class="hero-foot">
+          <span>HTML / CSS / JAVASCRIPT</span>
+          <span>WEB DEVELOPMENT</span>
+        </div>
+      </section>
+      <section id="works" class="section">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">SELECTED WORKS</p>
+            <h2>想いをかたちにした制作例。</h2>
+          </div>
+          <p>
+            掲載中の制作例は架空のサンプルです。
+            <br>
+            画像を選ぶと制作意図を表示します。「サイトを見る」から制作物を別タブで開けます。
+          </p>
+        </div>
+        <div class="filters" aria-label="制作例の絞り込み">
+          <button data-filter="すべて" aria-pressed="true">すべて</button>
+          <button data-filter="企業サイト" aria-pressed="false">企業サイト</button>
+          <button data-filter="店舗サイト" aria-pressed="false">店舗サイト</button>
+          <button data-filter="メディア" aria-pressed="false">メディア</button>
+        </div>
+        <div class="works-grid">
+          <article class="work" data-category="企業サイト">
+            <button
+              class="work-open"
+              data-site="../サイトA(コンサル会社)/index.html"
+              data-title="MINATO CONSULTING"
+              data-aim="経営コンサルティング会社を想定し、訪問者がサービス内容と相談までの流れを把握できる企業サイトを制作しました。会社紹介から支援内容、問い合わせへと読み進められる構成を目指しています。"
+              data-feature="サービスを3つの分野に整理し、支援の流れを番号付きで表示しました。上部メニューから各セクションへ移動できるようにし、支援モデルの詳細は開閉式にして、情報を段階的に読めるよう工夫しています。"
+              data-category="企業サイト"
+              aria-label="MINATO CONSULTINGの制作詳細を開く">
+              <div class="mock mock-0" aria-hidden="true">
+                <div class="mock-nav">
+                  <b>MINATO CONSULTING</b>
+                  <span>ABOUT　 SERVICE　 CONTACT</span>
+                </div>
+                <div class="mock-body">
+                  <small>A BETTER WAY FORWARD</small>
+                  <strong>
+                    Beyond
+                    <br>
+                    the ordinary.
+                  </strong>
+                  <div class="mock-line"></div>
+                  <span class="mock-caption">未来につながる選択を、ともに。</span>
+                </div>
+                <div class="mock-bottom">
+                  EXPLORE OUR STORY
+                  <span>↗</span>
+                </div>
+              </div>
+            </button>
+            <div class="work-info">
+              <h3>MINATO CONSULTING</h3>
+              <span>01 ↗</span>
+            </div>
+            <p>企業サイト / 架空のサンプル</p>
+            <a
+              class="work-site-link"
+              href="../サイトA(コンサル会社)/index.html"
+              target="_blank"
+              rel="noopener noreferrer">
+              サイトを見る（別タブ） ↗
+            </a>
+          </article>
+          <article class="work" data-category="店舗サイト">
+            <button
+              class="work-open"
+              data-site="../サイトB(カフェ)/index.html"
+              data-title="喫茶 余白"
+              data-aim="架空のカフェを題材に、お店の雰囲気を伝えながら、メニューや営業時間を確認できる店舗サイトを制作しました。写真とキャッチコピーで興味を持ってもらい、お品書きや店舗案内へ進める構成を目指しています。"
+              data-feature="メニューをカード形式で並べ、商品名・説明・価格を見比べやすくしました。カテゴリーの絞り込みをJavaScriptで実装し、飲みものやおやつを切り替えて探せるようにしています。画面幅に合わせてカードの列数も調整しました。"
+              data-category="店舗サイト"
+              aria-label="喫茶 余白の制作詳細を開く">
+              <div class="mock mock-1" aria-hidden="true">
+                <div class="mock-nav">
+                  <b>喫茶 余白</b>
+                  <span>ABOUT　 SERVICE　 CONTACT</span>
+                </div>
+                <div class="mock-body">
+                  <small>IDEAS INTO ACTION</small>
+                  <strong>
+                    ひと息つけば、
+                    <br>
+                    ごきげん。
+                  </strong>
+                  <div class="mock-line"></div>
+                  <span class="mock-caption">コーヒーと、甘い寄り道。</span>
+                </div>
+                <div class="mock-bottom">
+                  EXPLORE OUR STORY
+                  <span>↗</span>
+                </div>
+              </div>
+            </button>
+            <div class="work-info">
+              <h3>喫茶 余白</h3>
+              <span>02 ↗</span>
+            </div>
+            <p>店舗サイト / 架空のサンプル</p>
+            <a
+              class="work-site-link"
+              href="../サイトB(カフェ)/index.html"
+              target="_blank"
+              rel="noopener noreferrer">
+              サイトを見る（別タブ） ↗
+            </a>
+          </article>
+          <article class="work" data-category="メディア">
+            <button
+              class="work-open"
+              data-site="../サイトC/index.html"
+              data-title="まちの余白"
+              data-aim="架空の街を紹介する読みものサイトとして、カフェ・書店・散歩道の記事を楽しめるマガジンを制作しました。記事本文と編集室の補足情報を分け、興味のある記事を探して読み進められる構成を目指しています。"
+              data-feature="独立した記事にはarticle、編集室のおすすめや散歩メモにはasideを使い、内容の役割に合わせてHTMLを組み立てました。「続きを読む」はdetailsで開閉し、スマートフォンでは補足欄を記事一覧の下に配置して読みやすくしています。"
+              data-category="メディア"
+              aria-label="まちの余白の制作詳細を開く">
+              <div class="mock mock-2" aria-hidden="true">
+                <div class="mock-nav">
+                  <b>まちの余白</b>
+                  <span>ABOUT　 SERVICE　 CONTACT</span>
+                </div>
+                <div class="mock-body">
+                  <small>YOUR NEXT CHAPTER</small>
+                  <strong>
+                    いつもの道の、
+                    <br>
+                    その先へ。
+                  </strong>
+                  <div class="mock-line"></div>
+                  <span class="mock-caption">架空の街の、小さな楽しみ。</span>
+                </div>
+                <div class="mock-bottom">
+                  EXPLORE OUR STORY
+                  <span>↗</span>
+                </div>
+              </div>
+            </button>
+            <div class="work-info">
+              <h3>まちの余白</h3>
+              <span>03 ↗</span>
+            </div>
+            <p>メディア / 架空のサンプル</p>
+            <a
+              class="work-site-link"
+              href="../サイトC/index.html"
+              target="_blank"
+              rel="noopener noreferrer">
+              サイトを見る（別タブ） ↗
+            </a>
+          </article>
+        </div>
+      </section>
+      <section id="about" class="section about">
+        <div>
+          <p class="eyebrow">ABOUT</p>
+          <h2>一つずつ、丁寧に実装します。</h2>
+        </div>
+        <div>
+          <p>
+            HTML・CSS・JavaScriptを使ったWebサイトのコーディングに取り組んでいます。ご用意いただいたデザインや仕様に沿った実装、スマートフォン対応、既存ページの修正をご相談いただけます。
+          </p>
+          <div class="skills">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+            <span>レスポンシブ対応</span>
+          </div>
+          <p class="fine">※ 公開前に、お名前とご自身のプロフィールを追記してください。</p>
+        </div>
+      </section>
+      <section id="services" class="section">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">WHAT I DO</p>
+            <h2>できること。</h2>
+          </div>
+          <p>
+            目的とご予算を伺い、
+            <br>
+            実装する内容を確認します。
+          </p>
+        </div>
+        <div class="service-grid">
+          <article>
+            <span class="service-number">01</span>
+            <h3>HTML・CSSコーディング</h3>
+            <p>ご用意いただいたデザインと原稿をもとに、Webページを実装します。</p>
+          </article>
+          <article>
+            <span class="service-number">02</span>
+            <h3>レスポンシブ対応</h3>
+            <p>
+              パソコン・スマートフォンそれぞれの表示仕様を確認し、画面幅に合わせてレイアウトを実装します。
+            </p>
+          </article>
+          <article>
+            <span class="service-number">03</span>
+            <h3>既存ページの修正</h3>
+            <p>文章や画像の差し替え、表示崩れの修正など、既存ページの更新に対応します。</p>
+          </article>
+        </div>
+      </section>
+      <section class="section process">
+        <p class="eyebrow">HOW WE WORK</p>
+        <h2>ご相談から公開まで。</h2>
+        <ol>
+          <li>
+            <b>01 / お話を伺う</b>
+            <span>ご用意いただく素材と、実装のご希望を確認します。</span>
+          </li>
+          <li>
+            <b>02 / 内容確認・お見積もり</b>
+            <span>範囲と費用、スケジュールを確認します。</span>
+          </li>
+          <li>
+            <b>03 / コーディング</b>
+            <span>ご用意いただいたデザイン・仕様に沿って実装します。</span>
+          </li>
+          <li>
+            <b>04 / 確認・公開</b>
+            <span>表示を確認し、公開をサポートします。</span>
+          </li>
+        </ol>
+      </section>
+      <section id="contact" class="contact section">
+        <p class="eyebrow">LET’S TALK</p>
+        <h2>まずは、あなたのお話から。</h2>
+        <p>
+          ページの実装や修正について、ご相談ください。
+          <br>
+          デザイン・原稿の準備状況もお知らせください。
+        </p>
+        <button class="button" id="copy">
+          相談テンプレートをコピー
+          <span>↗</span>
+        </button>
+        <p id="copy-status" role="status"></p>
+        <textarea id="template" aria-label="相談テンプレート" readonly>
+【お名前・会社名】
+【事業・サービスの内容】
+【つくりたいサイト・お困りごと】
+【ご希望の公開時期】
+【ご予算の目安】
+【デザイン・原稿の準備状況】
+【参考サイト】</textarea>
+        <p class="fine">
+          このサンプルには送信機能はありません。公開時は、ご自身のメールアドレスや問い合わせフォームを設置してください。
+        </p>
+      </section>
+    </main>
+    <footer>
+      <a class="logo" href="#">WEB PORTFOLIO</a>
+      <span>© 2026 WEB PORTFOLIO</span>
+      <a href="#contact">制作のご相談 ↗</a>
+    </footer>
+    <dialog id="detail">
+      <div class="dialog-top">
+        <span>PROJECT NOTES / 架空のサンプル</span>
+        <button id="close-dialog" aria-label="詳細を閉じる">閉じる ×</button>
+      </div>
+      <h2 id="detail-title"></h2>
+      <p id="detail-category"></p>
+      <h3>制作のねらい</h3>
+      <p id="detail-aim"></p>
+      <h3>工夫したこと</h3>
+      <p id="detail-feature"></p>
+      <h3>サンプルの使用技術</h3>
+      <p>HTML・CSS・JavaScript</p>
+      <p class="fine">
+        架空の制作例です。実際の顧客案件や成果ではありません。リンク先も架空の制作サンプルです。
+      </p>
+      <a
+        id="detail-site"
+        class="work-site-link"
+        href="../サイトA(コンサル会社)/index.html"
+        target="_blank"
+        rel="noopener noreferrer">
+        サイトを見る（別タブ） ↗
+      </a>
+    </dialog>
+  </body>
+</html>
